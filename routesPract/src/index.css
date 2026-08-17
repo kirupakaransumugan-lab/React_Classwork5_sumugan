@@ -1,0 +1,53 @@
+.header-area .main-nav .menu-trigger {
+  background: transparent;
+  border: 0;
+}
+
+.happy-clients .naccs .menu button,
+.most-asked .accordion-head {
+  background: transparent;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  text-align: inherit;
+}
+
+.happy-clients .naccs .menu button {
+  border-right: 1px solid #e0e0e0;
+  cursor: pointer;
+  display: inline-block;
+  width: 24.6%;
+}
+
+.happy-clients .naccs .menu button.last-item {
+  border-right: 0;
+}
+
+.happy-clients .naccs .menu button.active {
+  color: #5b03e4;
+}
+
+.most-asked .accordion-head {
+  cursor: pointer;
+  display: block;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .header-area .main-nav .nav.open {
+    display: block;
+  }
+
+  .happy-clients .naccs .menu button {
+    margin: 15px 0;
+    width: 100%;
+  }
+}
+
+.accordions .accordion-body {
+  display: none;
+}
+
+.accordions .accordion.active .accordion-body {
+  display: block;
+}
